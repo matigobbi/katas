@@ -24,5 +24,6 @@ function numberOfPairs(gloves)
   //if no continue
   (for i = 0 ; i < gloves.length ; i++){
     
+    
   }
 }
