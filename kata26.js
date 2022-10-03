@@ -15,4 +15,5 @@ function openOrSenior(data){
       result.push("Open")
     }}
   return result
+  
 }
