@@ -25,3 +25,25 @@ function points(games) {
 	}
 	return result;
 }
+
+
+function points(games) {
+
+  //set a variable to store the result
+  //loop over the given array
+  //set a condition to compare x and y
+  //sum to the result
+  //return the result
+  
+  let result = 0
+
+  games.forEach(function(game){
+    if(game[0]>game[2]){
+      result+= 3
+    }
+    else if(game[0]===game[2]){
+      result+=1
+    }
+  })
+   return result
+}
